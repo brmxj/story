@@ -1,6 +1,6 @@
 module.exports = {
-    title: '123的博客',
-    description: 'YYY',
+    title: '文学故事集',
+    description: '该网站用于收集文学故事，仅用于学习与交流',
     theme: 'reco',
     base: '/story/',
     locales: {
@@ -12,7 +12,7 @@ module.exports = {
         [
             "sakura",
             {
-                num: 20, // 默认数量
+                num: 5, // 默认数量
                 show: true, //  是否显示
                 zIndex: -1, // 层级
                 img: {
@@ -33,7 +33,7 @@ module.exports = {
         nav: [
             { text: "首页", link: "/" },
             {
-                text: "Shark Xu 的博客",
+                text: "Stoic的世界",
                 items: [
                     { text: "掘金", link: "https://juejin.cn/user/233526039432445" },
                     { text: "Github", link: "https://github.com/Xusssyyy" }
@@ -45,10 +45,10 @@ module.exports = {
                 title: "欢迎学习",
                 path: "/",
                 collapsable: false,  // 是否折叠
-                children: [{ title: "博客简介", path: "/" }],
+                children: [{ title: "网站简介", path: "/" }],
             },
             {
-                title: "基础篇",
+                title: "民间故事",
                 path: "/blogs/1",
                 collapsable: true,
                 children: [
