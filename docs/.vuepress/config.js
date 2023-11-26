@@ -2,7 +2,7 @@ module.exports = {
     title: '123的博客',
     description: 'YYY',
     theme: 'reco',
-    base: '/blog/',
+    base: '/blogs/',
     locales: {
         "/": {
             lang: "zh-CN",
