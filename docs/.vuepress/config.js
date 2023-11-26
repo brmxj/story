@@ -1,6 +1,6 @@
 module.exports = {
-    title: '文学故事集',
-    description: '该网站用于收集文学故事，仅用于学习与交流',
+    title: "文学故事集",
+    description: "该网站用于收集文学故事，仅用于学习与交流",
     theme: 'reco',
     base: '/story/',
     locales: {
