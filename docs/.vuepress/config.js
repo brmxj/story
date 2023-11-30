@@ -34,10 +34,6 @@ module.exports = {
             { text: "首页", link: "/" },
             {
                 text: "Stoic的世界",
-                items: [
-                    { text: "掘金", link: "https://juejin.cn/user/233526039432445" },
-                    { text: "Github", link: "https://github.com/Xusssyyy" }
-                ]
             }
         ],
         sidebar: [
