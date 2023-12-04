@@ -2,7 +2,7 @@ module.exports = {
     title: "文学故事集",
     description: "该网站用于收集文学故事，仅用于学习与交流",
     theme: 'reco',
-    base: '/story',
+    base: '/story/',
     locales: {
         "/": {
             lang: "zh-CN",
@@ -34,25 +34,29 @@ module.exports = {
             { text: "首页", link: "/" },
             {
                 text: "Stoic的世界",
+                items: [
+                    { text: "掘金", link: "https://juejin.cn/user/233526039432445" },
+                    { text: "Github", link: "https://github.com/Xusssyyy" }
+                ]
             }
         ],
-        // sidebar: [
-        //     {
-        //         title: "欢迎学习",
-        //         path: "/",
-        //         collapsable: false,  // 是否折叠
-        //         children: [{ title: "网站简介", path: "/" }],
-        //     },
-        //     {
-        //         title: "民间故事",
-        //         path: "/blogs/1",
-        //         collapsable: true,
-        //         children: [
-        //             { title: "第一篇", path: "/blogs/1" },
-        //             { title: "第二篇", path: "/blogs/2" },
-        //         ]
-        //     }
-        // ]
+        sidebar: [
+            {
+                title: "欢迎学习",
+                path: "/",
+                collapsable: false,  // 是否折叠
+                children: [{ title: "网站简介", path: "/" }],
+            },
+            {
+                title: "民间故事",
+                path: "/blogs/1",
+                collapsable: true,
+                children: [
+                    { title: "第一篇", path: "/blogs/1" },
+                    { title: "第二篇", path: "/blogs/2" },
+                ]
+            }
+        ]
     }
 }
 
